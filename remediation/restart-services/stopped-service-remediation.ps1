@@ -1,0 +1,1 @@
+Start-Service -DisplayName 'NAMEOFSERVICE' # EXAMPLE: Start-Service -DisplayName '*BeyondTrust Jump Client*'
