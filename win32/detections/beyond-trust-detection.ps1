@@ -10,4 +10,3 @@ if ($null -ne $beyondTrustKey) {
     Write-Host "No BeyondTrust installation found."
     exit 1
 }
-
