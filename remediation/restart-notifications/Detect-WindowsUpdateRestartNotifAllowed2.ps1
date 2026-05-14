@@ -8,10 +8,8 @@ $propertyName = 'RestartNotificationsAllowed2'
 $value = (Get-ItemProperty -Path $registryPath -ErrorAction SilentlyContinue).$propertyName
 
 if ($value -ne 1) {
-    Write-Output "Windows Update restart notifications are not allowed. Current value: $value"
     exit 1
 }
 else {
-    Write-Output "Windows Update restart notifications are allowed. Current value: $value"
     exit 0
 }
